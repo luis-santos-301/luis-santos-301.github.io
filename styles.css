@@ -1,0 +1,162 @@
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.name {
+    font-family:"Courier New", Courier, monospace;
+    font-size:80px;
+    text-align: center;
+    color: white;
+}
+
+.introduction {
+    color: white;
+    font-family:"Courier New", Courier, monospace;
+    font-size:30px;
+    text-align: center;
+}
+.linkedin { 
+   width: 100%;
+  max-width: 600px;
+  background-color: #0077B5;
+  color: white;
+  border-color: #0077B5;
+  border-style: solid;
+  border-radius:3px;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  font-size: 2vw;
+  margin: 5px 2px;
+  cursor: pointer;
+  transition: background-color .5s,
+    color .5s, border-color .5s;
+}
+
+/*pseudo-class*/
+.linkedin:hover { 
+    background-color:white;
+    border-color: white;
+    color: #0077B5;
+}
+
+.linkedin:active { 
+    opacity: 0.5;
+}
+
+.github { 
+   width: 100%;
+  max-width: 600px;
+  background-color: #282929;
+  color: white;
+  border-color: #282929;
+  border-style: solid;
+  border-radius:3px;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  font-size: 2vw;
+  margin: 5px 2px;
+  cursor: pointer;
+  transition: background-color .5s,
+    color .5s, border-color .5s;
+}
+
+.github:active { 
+    opacity: 0.5;
+}
+
+.github:hover {
+   background-color:white;
+    border-color: white;
+    color: #282929;
+}
+
+.button-container {
+      border: 5px;
+  text-align: center;
+}
+
+.wordle { 
+   width: 100%;
+  max-width: 600px;
+  background-color: rgb(138, 146, 146);
+  color: rgb(255, 247, 0);
+  border-color: (138, 146, 146);
+  border-style: solid;
+  border-radius:3px;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  font-size: 2vw;
+  margin: 5px 2px;
+  cursor: pointer;
+  transition: background-color .5s,
+    color .5s, border-color .5s;
+}
+
+.wordle:active { 
+    opacity: 0.5;
+}
+
+.wordle:hover {
+  background-color:white;
+    border-color: white;
+    color: #1a8710;
+}
+.email { 
+  background-color: #e4ebeb;
+  color: rgb(189, 28, 28);
+  border-color: #e4ebeb;
+  border-style: solid;
+  border-radius:3px;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  margin: 0 auto;
+  font-size: 2vw;
+  margin: 5px 2px;
+  cursor: pointer;
+  transition: background-color .5s,
+    color .5s, border-color .5s;
+}
+
+.email:active { 
+    opacity: 0.5;
+}
+
+.email:hover {
+  background-color:white;
+    border-color: white;
+    color: #282929;
+}
+
+.description1 {
+    color:white;
+    text-align: center;
+    font-size: 1.2vw;
+    font-family:"Courier New", Courier, monospace;
+}
+
+.description2 {
+    display: flex;
+    color:white;
+    text-align: center;
+    font-size: 1.2vw;
+    padding-left: 400px;
+    margin-top:-180px;
+    font-family:"Courier New", Courier, monospace;
+}
+
+.img {
+  display: flex;
+  padding-left: 80px;
+}
+
